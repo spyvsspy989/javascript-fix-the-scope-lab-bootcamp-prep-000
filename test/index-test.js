@@ -34,5 +34,4 @@ describe('Fix the Scope', function() {
     it('is "theFunk!"', function() {
       'returns(window.theFunk).toEqual("FUNKY!")';
     })
-    })
 })
