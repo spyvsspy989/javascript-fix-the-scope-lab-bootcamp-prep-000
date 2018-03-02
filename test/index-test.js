@@ -26,12 +26,13 @@ describe('Fix the Scope', function() {
 
   describe('funkyFunction()', function() {
     it('returns a function', function() {
-      'returns(window.funkyFunction().toEqual("function");'
+      'returns(window.funkyFunction().toEqual("function")';
   })
 })
   
   describe('theFunk', function() {
     it('is "theFunk!"', function() {
       'returns(window.theFunk).toEqual("FUNKY!")';
+    })
     })
 })
